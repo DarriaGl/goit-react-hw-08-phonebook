@@ -37,7 +37,7 @@ export const Btn = styled.button`
   border-radius: 6px;
   border: 1px solid;
   :hover {
-    background-color: #1677ff;
+    background-color: olive;
     > svg {
       fill: #fff;
     }

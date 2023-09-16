@@ -12,18 +12,18 @@ export const Input = styled.input`
   border-radius: 6px;
   border: none;
   outline: 0;
-  background-color: #fff;
-  box-shadow: 0 1px 6px 0 #20212447;
+  background-color: olive;
+  box-shadow: 0 1px 6px 0 olive;
 `;
 
-export const Button = styled.button`  
+export const Button = styled.button`
   padding: 10px 20px;
   margin-top: 5px;
   font-size: 14px;
   border-radius: 6px;
   border: 1px solid;
   :hover {
-    background-color: #e0e0e0;    
+    background-color: olive;
   }
 `;
 

@@ -10,15 +10,6 @@ const LoginForm = () => {
   const onFinish = values => {
     dispatch(logIn(values));
   };
-  // const handleSubmit = e => {
-  //   e.preventDefault();
-  //   const { email, password } = e.target.elements;
-  //   if (email.value.trim() === '' || password.value.trim() === '') {
-  //     return toast.error('Please fill in all fields');
-  //   }
-  //   dispatch(logIn({ email: email.value, password: password.value }));
-  //   e.target.reset();
-  // };
 
   return (
     <Form
@@ -65,19 +56,16 @@ const LoginForm = () => {
       </Form.Item>
 
       <Form.Item>
-        <Button type="primary" htmlType="submit" className="login-form-button">
+        <Button
+          type="primary"
+          htmlType="submit"
+          className="login-form-button"
+          color="olive"
+        >
           Log in
         </Button>
       </Form.Item>
     </Form>
-
-    // <Form onSubmit={handleSubmit} autoComplete="off">
-    //   <Text>Email</Text>
-    //   <Input type="email" name="email" placeholder="Enter email" />
-    //   <Text>Password</Text>
-    //   <Input type="password" name="password" placeholder="Enter password" />
-    //   <Button type="submit">Log In</Button>
-    // </Form>
   );
 };
 
